@@ -9364,3 +9364,260 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=beach.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2023-02-11 09:47:26.512 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-02-11 09:47:27.579 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-02-11 09:47:27.649 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:47:39.018 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:47:39.018 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:47:41.215 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「面包煎蛋」
+2023-02-11 09:47:41.216 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:47:41.760 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:47:43.762 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=2.0s
+2023-02-11 09:47:43.987 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:47:55.509 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:47:55.509 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:47:57.688 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「喇叭」
+2023-02-11 09:47:57.689 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:47:58.173 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:47:59.814 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.64s
+2023-02-11 09:47:59.817 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading trumpet.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/trumpet.onnx
+2023-02-11 09:48:02.025 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - trumpet(ResNet)_model: 0.5s
+2023-02-11 09:48:02.039 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:04.056 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「喇叭」
+2023-02-11 09:48:04.056 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:48:04.524 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:48:05.875 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-11 09:48:07.534 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - trumpet(ResNet)_model: 0.01s
+2023-02-11 09:48:07.554 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:48:07.555 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:09.558 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:48:21.239 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:48:21.240 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:48:23.395 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「小提琴」
+2023-02-11 09:48:23.395 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:48:23.892 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:48:25.132 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-02-11 09:48:25.135 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading violin.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/violin.onnx
+2023-02-11 09:48:27.638 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - violin(ResNet)_model: 0.82s
+2023-02-11 09:48:27.653 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:29.744 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「小提琴」
+2023-02-11 09:48:29.745 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:48:30.220 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:48:31.462 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-02-11 09:48:33.116 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - violin(ResNet)_model: 0.01s
+2023-02-11 09:48:33.137 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:48:33.138 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:35.140 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:48:44.697 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:48:44.697 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:48:46.817 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:48:46.817 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:48:47.303 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:48:48.531 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-02-11 09:48:48.535 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading sunflowers_in_a_field.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/sunflowers_in_a_field.onnx
+2023-02-11 09:48:51.484 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.82s
+2023-02-11 09:48:51.499 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:53.520 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:48:53.520 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:48:54.044 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:48:55.275 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-02-11 09:48:57.083 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:48:57.146 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:48:57.146 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:48:59.149 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:49:07.992 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:49:07.993 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:49:10.174 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:49:10.174 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:49:10.693 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:49:11.933 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-02-11 09:49:13.614 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:49:13.626 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:49:15.644 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:49:15.645 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:49:16.084 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:49:17.329 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.25s
+2023-02-11 09:49:18.999 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:49:19.019 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:49:19.019 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:49:21.023 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:49:29.853 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:49:29.854 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:49:31.979 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「面包煎蛋」
+2023-02-11 09:49:31.979 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:49:32.464 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:49:33.706 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-02-11 09:49:33.883 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:49:42.383 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:49:42.383 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:49:44.561 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「郁金香」
+2023-02-11 09:49:44.561 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:49:45.001 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:49:46.659 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.66s
+2023-02-11 09:49:46.662 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading tulip.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/tulip.onnx
+2023-02-11 09:49:49.168 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - tulip(ResNet)_model: 0.61s
+2023-02-11 09:49:49.183 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:49:51.201 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「郁金香」
+2023-02-11 09:49:51.202 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:49:51.634 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:49:53.094 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.46s
+2023-02-11 09:49:54.596 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - tulip(ResNet)_model: 0.01s
+2023-02-11 09:49:54.617 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:49:54.618 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:49:56.620 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:50:05.778 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:50:05.778 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:50:07.964 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「海滩」
+2023-02-11 09:50:07.964 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:08.448 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:50:09.833 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2023-02-11 09:50:09.836 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading beach.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/beach.onnx
+2023-02-11 09:50:12.200 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - beach(ResNet)_model: 0.55s
+2023-02-11 09:50:12.213 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:50:14.233 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「海滩」
+2023-02-11 09:50:14.233 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:14.701 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:50:16.254 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.55s
+2023-02-11 09:50:18.249 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - beach(ResNet)_model: 0.01s
+2023-02-11 09:50:18.266 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:50:18.267 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:50:20.269 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:50:29.308 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:50:29.309 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:50:31.427 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:50:31.427 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:31.888 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:50:33.130 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.24s
+2023-02-11 09:50:35.114 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:50:35.129 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:50:37.156 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:50:37.156 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:37.617 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:50:38.843 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-02-11 09:50:40.645 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:50:40.666 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:50:40.666 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:50:42.668 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:50:51.668 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:50:51.668 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:50:53.818 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「小提琴」
+2023-02-11 09:50:53.819 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:54.285 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:50:55.502 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.22s
+2023-02-11 09:50:57.326 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - violin(ResNet)_model: 0.01s
+2023-02-11 09:50:57.341 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:50:59.362 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「小提琴」
+2023-02-11 09:50:59.363 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:50:59.827 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:51:01.058 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-02-11 09:51:02.744 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - violin(ResNet)_model: 0.01s
+2023-02-11 09:51:02.764 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:51:02.765 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:51:04.781 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:51:14.009 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:51:14.009 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:51:16.189 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「花瓶中郁金香」
+2023-02-11 09:51:16.189 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:51:16.758 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:51:17.984 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.23s
+2023-02-11 09:51:18.170 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-11 09:51:27.365 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-11 09:51:27.366 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-11 09:51:29.508 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:51:29.509 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:51:30.003 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:51:31.277 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.27s
+2023-02-11 09:51:33.442 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:51:33.452 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:51:35.471 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「田野中向日葵」
+2023-02-11 09:51:35.471 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-11 09:51:35.927 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-11 09:51:37.177 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.25s
+2023-02-11 09:51:38.995 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - sunflowers_in_a_field(ResNet)_model: 0.01s
+2023-02-11 09:51:39.015 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-11 09:51:39.015 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-11 09:51:41.018 | CRITICAL | services.bricklayer.core:refresh_ctx_cookies:717 - >> MISS [CookieManager] Identity token update failed
+2023-02-11 09:51:46.394 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-02-11 09:51:46.395 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-02-11 09:51:46.395 | INFO     | services.explorer.explorer:get_oder_history:216 - 初始化订单数据
+2023-02-11 09:51:46.666 | ERROR    | services.explorer.explorer:get_order_history:142 - Failed to get order history, cookie may have expired
+Traceback (most recent call last):
+  File "/home/runner/work/gamer/gamer/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/gamer/gamer/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/gamer/gamer/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/gamer/gamer/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 301, in run
+    promotions = self.preload()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 269, in preload
+    self.ph.get_oder_history(ctx_cookies=self._ctx_cookies)
+  File "/home/runner/work/gamer/gamer/epic/src/services/explorer/explorer.py", line 219, in get_oder_history
+    if resp := explorer.get_order_history(ctx_cookies):
+> File "/home/runner/work/gamer/gamer/epic/src/services/explorer/explorer.py", line 140, in get_order_history
+    raise RequestException("Failed to get order history, cookie may have expired")
+requests.exceptions.RequestException: Failed to get order history, cookie may have expired
+2023-02-11 09:51:47.074 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Recipe for Disaster - state=待认领 link=https://store.epicgames.com/zh-CN/p/recipe-for-disaster-83726f
+2023-02-11 09:51:51.022 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Recipe for Disaster - state=获取 link=https://store.epicgames.com/zh-CN/p/recipe-for-disaster-83726f
+2023-02-11 09:51:51.589 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-11 09:51:51.672 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-11 09:52:26.877 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1955), thread 'MainThread' (140376590285888):
+Traceback (most recent call last):
+  File "/home/runner/work/gamer/gamer/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/gamer/gamer/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/gamer/gamer/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/gamer/gamer/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 305, in run
+    result = empower_games_claimer(self.bricklayer, promotion.url, page, pattern="get")
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/game.py", line 170, in empower_games_claimer
+    return claimer.get_free_game(page_link=page_link, page=page, pattern=pattern)
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/game.py", line 157, in get_free_game
+    self.cart_handle_payment(page)  # mode: get
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/core.py", line 557, in cart_handle_payment
+    if self._click_order_button(page):  # cart_handle_payment
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/core.py", line 456, in _click_order_button
+    payment_btn.click()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 13519, in click
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_locator.py", line 149, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 484, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "xpath=//div[@id='webPurchaseContainer']//iframe"
+============================================================
