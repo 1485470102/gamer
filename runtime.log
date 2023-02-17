@@ -10862,3 +10862,259 @@ playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
   waiting for frame "xpath=//div[@id='webPurchaseContainer']//iframe"
 ============================================================
+2023-02-17 09:59:49.532 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2023-02-17 09:59:52.045 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2023-02-17 09:59:52.094 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:00:03.866 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:00:03.867 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:00:05.958 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:00:05.958 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:00:06.430 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:00:07.894 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.46s
+2023-02-17 10:00:07.897 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading guitar.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/guitar.onnx
+2023-02-17 10:00:10.063 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.75s
+2023-02-17 10:00:10.086 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:00:12.103 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:00:12.103 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:00:12.545 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:00:14.052 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.51s
+2023-02-17 10:00:15.916 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.02s
+2023-02-17 10:00:15.939 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:00:15.939 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:00:17.941 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:00:26.934 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:00:26.934 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:00:29.046 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:00:29.046 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:00:29.441 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:00:30.862 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.42s
+2023-02-17 10:00:32.117 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:00:32.126 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:00:34.142 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:00:34.143 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:00:34.476 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:00:35.824 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:00:37.269 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:00:37.287 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:00:37.288 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:00:39.289 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:00:47.500 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:00:47.501 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:00:49.608 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「面包煎蛋」
+2023-02-17 10:00:49.608 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:00:49.959 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:00:51.343 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2023-02-17 10:00:51.539 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:01:01.825 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:01:01.826 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:01:03.979 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「水中熊猫」
+2023-02-17 10:01:03.980 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:01:04.343 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:01:05.699 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.36s
+2023-02-17 10:01:05.908 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:01:14.231 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:01:14.231 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:01:16.342 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「面包煎蛋」
+2023-02-17 10:01:16.343 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:01:16.705 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:01:18.056 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:01:18.223 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:01:28.235 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:01:28.236 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:01:30.345 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:01:30.345 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:01:30.688 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:01:32.008 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2023-02-17 10:01:33.482 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:01:33.491 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:01:35.507 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:01:35.507 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:01:35.879 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:01:37.204 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.32s
+2023-02-17 10:01:38.968 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:01:38.986 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:01:38.986 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:01:40.988 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:01:49.267 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:01:49.268 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:01:51.387 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「水中熊猫」
+2023-02-17 10:01:51.387 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:01:51.757 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:01:53.110 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:01:53.279 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:02:03.188 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:02:03.188 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:02:05.337 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「水中熊猫」
+2023-02-17 10:02:05.338 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:02:05.689 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:02:07.035 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:02:07.245 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:02:17.029 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:02:17.029 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:02:19.175 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「面包煎蛋」
+2023-02-17 10:02:19.176 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:02:19.558 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:02:20.932 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.37s
+2023-02-17 10:02:21.083 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:02:30.966 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:02:30.966 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:02:33.114 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:02:33.114 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:02:33.449 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:02:34.835 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.39s
+2023-02-17 10:02:36.478 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:02:36.487 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:02:38.502 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:02:38.503 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:02:38.803 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:02:40.156 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:02:41.949 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:02:41.967 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:02:41.967 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:02:43.969 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:02:53.980 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:02:53.980 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:02:56.130 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「水中熊猫」
+2023-02-17 10:02:56.131 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:02:56.479 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:02:58.113 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.63s
+2023-02-17 10:02:58.306 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:03:06.367 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:03:06.367 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:03:08.519 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:08.520 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:08.892 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:10.656 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.76s
+2023-02-17 10:03:12.330 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:03:12.338 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:03:14.354 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:14.354 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:14.717 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:16.591 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.87s
+2023-02-17 10:03:18.064 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:03:18.081 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:03:18.081 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:03:20.085 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:03:28.474 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:03:28.474 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:03:30.587 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:30.587 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:31.000 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:32.364 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.36s
+2023-02-17 10:03:33.909 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:03:33.918 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:03:35.933 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:35.934 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:36.252 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:37.605 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.35s
+2023-02-17 10:03:38.927 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:03:38.944 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:03:38.944 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:03:40.946 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:03:49.247 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:03:49.247 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:03:51.391 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:51.391 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:51.783 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:53.121 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-02-17 10:03:54.744 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:03:54.752 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:03:56.768 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「吉他」
+2023-02-17 10:03:56.769 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:03:57.093 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:03:58.432 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.34s
+2023-02-17 10:04:00.278 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Submit the challenge - guitar(ResNet)_model: 0.01s
+2023-02-17 10:04:00.298 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2023-02-17 10:04:00.298 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2023-02-17 10:04:02.301 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2023-02-17 10:04:10.955 | INFO     | services.bricklayer.core:login:526 - >> MATCH [CookieManager] 实体信息注入完毕
+2023-02-17 10:04:10.956 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2023-02-17 10:04:13.073 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Get label - label=「水中熊猫」
+2023-02-17 10:04:13.073 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在编排索引
+2023-02-17 10:04:13.479 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2023-02-17 10:04:14.838 | DEBUG    | hcaptcha_challenger.core:log:317 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.36s
+2023-02-17 10:04:15.040 | CRITICAL | services.bricklayer.core:refresh_ctx_cookies:717 - >> MISS [CookieManager] Identity token update failed
+2023-02-17 10:04:18.790 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2023-02-17 10:04:18.791 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2023-02-17 10:04:18.791 | INFO     | services.explorer.explorer:get_oder_history:216 - 初始化订单数据
+2023-02-17 10:04:19.149 | ERROR    | services.explorer.explorer:get_order_history:142 - Failed to get order history, cookie may have expired
+Traceback (most recent call last):
+  File "/home/runner/work/gamer/gamer/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/home/runner/work/gamer/gamer/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/gamer/gamer/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/gamer/gamer/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 301, in run
+    promotions = self.preload()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 269, in preload
+    self.ph.get_oder_history(ctx_cookies=self._ctx_cookies)
+  File "/home/runner/work/gamer/gamer/epic/src/services/explorer/explorer.py", line 219, in get_oder_history
+    if resp := explorer.get_order_history(ctx_cookies):
+> File "/home/runner/work/gamer/gamer/epic/src/services/explorer/explorer.py", line 140, in get_order_history
+    raise RequestException("Failed to get order history, cookie may have expired")
+requests.exceptions.RequestException: Failed to get order history, cookie may have expired
+2023-02-17 10:04:19.660 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Warpips - state=待认领 link=https://store.epicgames.com/zh-CN/p/warpips-57e2c4
+2023-02-17 10:04:24.237 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Warpips - state=获取 link=https://store.epicgames.com/zh-CN/p/warpips-57e2c4
+2023-02-17 10:04:24.853 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2023-02-17 10:04:24.866 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2023-02-17 10:05:00.081 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1879), thread 'MainThread' (139655595854912):
+Traceback (most recent call last):
+  File "/home/runner/work/gamer/gamer/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/gamer/gamer/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/gamer/gamer/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 112, in job_loop_claim
+    claimer.just_do_it()
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 309, in just_do_it
+    fire(
+  File "/home/runner/work/gamer/gamer/epic/src/services/utils/toolbox.py", line 84, in fire
+    container(context)
+  File "/home/runner/work/gamer/gamer/epic/src/services/deploy.py", line 305, in run
+    result = empower_games_claimer(self.bricklayer, promotion.url, page, pattern="get")
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/game.py", line 170, in empower_games_claimer
+    return claimer.get_free_game(page_link=page_link, page=page, pattern=pattern)
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/game.py", line 157, in get_free_game
+    self.cart_handle_payment(page)  # mode: get
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/core.py", line 557, in cart_handle_payment
+    if self._click_order_button(page):  # cart_handle_payment
+  File "/home/runner/work/gamer/gamer/epic/src/services/bricklayer/core.py", line 456, in _click_order_button
+    payment_btn.click()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 13519, in click
+    self._sync(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 104, in _sync
+    return task.result()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_locator.py", line 149, in click
+    return await self._frame.click(self._selector, strict=True, **params)
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 484, in click
+    await self._channel.send("click", locals_to_params(locals()))
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 43, in send
+    return await self._connection.wrap_api_call(
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 396, in wrap_api_call
+    return await cb()
+  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 78, in inner_send
+    result = next(iter(done)).result()
+playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "xpath=//div[@id='webPurchaseContainer']//iframe"
+============================================================
